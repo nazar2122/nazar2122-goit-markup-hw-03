@@ -1,0 +1,207 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-touch-color: #2196f3;
+  --primary-button-text-color: #ffffff;
+  --primary-background-color: #f5f4fa;
+  --primary-text-p-color: #757575;
+}
+
+body {
+  font-family: Roboto, "Segoe UI";
+  color: #212121;
+}
+li {
+  list-style: none;
+}
+/* зкритий текс */
+.shadow {
+  font-size: 0;
+}
+/* шапка профиля */
+.logo-accent {
+  color: var(--primary-touch-color);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.navigation.current {
+  color: var(--primary-touch-color);
+}
+.navigation {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.navigation:focus,
+.navigation:hover {
+  color: var(--primary-touch-color);
+}
+
+.mail-header:focus,
+.mail-header:hover {
+  color: var(--primary-touch-color);
+}
+.mail-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-p-color);
+}
+/* заголовок */
+
+.title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--primary-button-text-color);
+}
+/* кнопка 1 */
+.button-one {
+  font-family: inherit;
+  background-color: var(--primary-touch-color);
+  color: var(--primary-button-text-color);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* .button-one:focus,
+.button-one:hover {
+    background-color: #2196F3;
+    color: #FFFFFF; */
+
+/* особливості */
+
+.caption {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-p-color);
+}
+/* чим займається компанія */
+.subject-company {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+/* команда */
+.subject {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.heading {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.subtitle {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-p-color);
+}
+/* підвал-сторінки */
+
+.logo-two {
+  color: var(--primary-button-text-color);
+}
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-touch-color);
+  text-decoration: none;
+}
+
+.map-googl {
+  color: var(--primary-button-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.map-googl:hover,
+.map-googl:focus {
+  color: var(--primary-touch-color);
+}
+.contakt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contakt:hover,
+.contakt:focus {
+  color: var(--primary-touch-color);
+}
+/* 2-сторінка */
+
+/* кнопки */
+.buttons {
+  font-family: inherit;
+  background-color: var(--primary-background-color);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--primary-touch-color);
+  color: var(--primary-button-text-color);
+}
+
+/* картинки */
+.project {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.place {
+  color: var(--primary-text-p-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
