@@ -19,29 +19,34 @@
     <!-- шапка профиля -->
     <header class="page-header">
       <!--логотип сайту-->
-      <div class="container">
+      <header class="page-header">
+      <div class="container global">
         <nav class="site-nav">
           <a href="index.html" class="logo"
             ><span class="logo-accent">Web</span>Studio</a
           >
           <!--навігація на сторінки-->
           <ul class="nav-link">
-            <li><a class="navigation" href="index.html">Студия</a></li>
-            <li>
-              <a class="navigation current" href="./portfolio.html"
-                >Портфолио</a
-              >
+            <li class="header-navigation">
+              <a class="navigation" href="index.html">Студия</a>
             </li>
-            <li><a class="navigation" href="">Контакты</a></li>
+
+            <li class="header-navigation">
+              <a class="navigation current" href="./portfolio.html">Портфолио</a>
+            </li>
+
+            <li class="header-navigation">
+              <a class="navigation" href="">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="mail">
-          <li>
+          <li class="mail-namb">
             <a class="mail-header" href="emailto:info@devstudio.com"
               >info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="mail-namb">
             <a class="mail-header" href="tel:+380961111111">
               +38 096 111 11 11</a
             >
@@ -53,6 +58,7 @@
       <!-- КНОПКИ -->
       <section class="item-images">
         <div class="container">
+          <h1 class="shadow">gallery</h1>
           <ul class="btn">
             <li><button class="buttons" type="button">Все</button></li>
             <li><button class="buttons" type="button">Веб-сайты</button></li>
@@ -60,10 +66,8 @@
             <li><button class="buttons" type="button">Дизайн</button></li>
             <li><button class="buttons" type="button">Маркетинг</button></li>
           </ul>
-        </div>
         <!-- картинки -->
-        <h1 class="shadow">portfolio</h1>
-        <div class="container">
+        
           <ul class="items">
             <li class="list-items">
               <img
@@ -73,8 +77,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project">Технокряк</h2>
-              <p class="place">Веб-сайт</p>
+              <div class="items-img">
+                <h2 class="project">Технокряк</h2>
+              <p class="place">Веб-сайт</p></div>
             </li>
             <li class="list-items">
               <img
@@ -84,10 +89,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project">
+              <div class="items-img"><h2 class="project">
                 Постер <span lang="en">New Orlean vs Golden Star</span>
               </h2>
-              <p class="place">Дизайн</p>
+              <p class="place">Дизайн</p></div>
+              
             </li>
             <li class="list-items">
               <img
@@ -97,8 +103,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project">Ресторан <span lang="en">Seafood</span></h2>
-              <p class="place">Приложение</p>
+              <div class="items-img"><h2 class="project">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="place">Приложение</p></div>
+              
             </li>
             <li class="list-items">
               <img
@@ -108,8 +115,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project">Проект<span lang="en">Prime</span></h2>
-              <p class="place">Маркетинг</p>
+              <div class="items-img"><h2 class="project">Проект<span lang="en">Prime</span></h2>
+              <p class="place">Маркетинг</p></div>
+              
             </li>
             <li class="list-items">
               <img
@@ -119,8 +127,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project">Проект<span lang="en">Boxes</span></h2>
-              <p class="place">Приложение</p>
+              <div class="items-img"><h2 class="project">Проект<span lang="en">Boxes</span></h2>
+              <p class="place">Приложение</p></div>
+              
             </li>
             <li class="list-items">
               <img
@@ -130,8 +139,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project" lang="en">Inspiration has no Borders</h2>
-              <p class="place">Веб-сайт</p>
+              <div class="items-img"><h2 class="project" lang="en">Inspiration has no Borders</h2>
+              <p class="place">Веб-сайт</p></div>
+              
             </li>
             <li class="list-items">
               <img
@@ -141,10 +151,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project">
+              <div class="items-img"><h2 class="project">
                 Издание<span lang="en">Limited Edition</span>
               </h2>
-              <p class="place">Дизайн</p>
+              <p class="place">Дизайн</p></div>
+              
             </li>
             <li class="list-items">
               <img
@@ -154,8 +165,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project">Проект<span lang="en">LAB</span></h2>
-              <p class="place">Маркетинг</p>
+              <div class="items-img"><h2 class="project">Проект<span lang="en">LAB</span></h2>
+              <p class="place">Маркетинг</p></div>
+              
             </li>
             <li class="list-items">
               <img
@@ -165,8 +177,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project" lang="en">Growing Business</h2>
-              <p class="place">Приложение</p>
+              <div class="items-img"><h2 class="project" lang="en">Growing Business</h2>
+              <p class="place">Приложение</p></div>
+              
             </li>
           </ul>
         </div>
@@ -178,7 +191,7 @@
           >Web<span class="logo-two">Studio</span></a
         >
         <address>
-          <ul>
+          <ul class="nav-footer">
             <li class="map">
               <a
                 class="map-googl"
@@ -187,13 +200,13 @@
                 rel="noopener noreferrer"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
-            </li>
-            <li>
+            </li class>
+            <li class="footer-contakt">
               <a class="contakt" href="mailto:info@devstudio.com"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="footer-contakt">
               <a class="contakt" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
