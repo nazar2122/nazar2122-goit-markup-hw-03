@@ -4,20 +4,43 @@
   --primary-button-text-color: #ffffff;
   --primary-background-color: #f5f4fa;
   --primary-text-p-color: #757575;
+  --primary-futer-color: #2f303a;
 }
 
 body {
   font-family: Roboto, "Segoe UI";
   color: #212121;
 }
-li {
+ul {
+  margin: 0px;
+  padding: 0px;
   list-style: none;
 }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+
 /* зкритий текс */
 .shadow {
   font-size: 0;
 }
 /* шапка профиля */
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: var(--primary-button-text-color);
+}
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .logo-accent {
   color: var(--primary-touch-color);
 }
@@ -61,8 +84,16 @@ li {
   color: var(--primary-text-p-color);
 }
 /* заголовок */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--primary-text-color);
+  text-align: center;
+}
 
 .title {
+  margin-bottom: 30px;
+  text-align: center;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -71,6 +102,11 @@ li {
 }
 /* кнопка 1 */
 .button-one {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+  text-align: center;
   font-family: inherit;
   background-color: var(--primary-touch-color);
   color: var(--primary-button-text-color);
@@ -86,8 +122,12 @@ li {
     color: #FFFFFF; */
 
 /* особливості */
-
+.hang {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .caption {
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -103,7 +143,14 @@ li {
   color: var(--primary-text-p-color);
 }
 /* чим займається компанія */
+.company {
+  padding-bottom: 94px;
+}
+.subject-company.centered {
+  text-align: center;
+}
 .subject-company {
+  margin-bottom: 50px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -111,14 +158,27 @@ li {
   letter-spacing: 0.03em;
 }
 /* команда */
+.item {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.subject.centered {
+  text-align: center;
+}
 .subject {
+  margin-bottom: 50px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+.list-avatar {
+  margin-bottom: 30px;
+}
 .heading {
+  margin-bottom: 10px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -133,11 +193,17 @@ li {
   color: var(--primary-text-p-color);
 }
 /* підвал-сторінки */
+.footer {
+  background-color: var(--primary-futer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .logo-two {
   color: var(--primary-button-text-color);
 }
 .logo-footer {
+  margin-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -148,6 +214,7 @@ li {
 }
 
 .map-googl {
+  margin-bottom: 9px;
   color: var(--primary-button-text-color);
   font-style: normal;
   font-size: 14px;
@@ -160,6 +227,7 @@ li {
   color: var(--primary-touch-color);
 }
 .contakt {
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -175,7 +243,15 @@ li {
 /* 2-сторінка */
 
 /* кнопки */
+.btn {
+  text-align: center;
+}
 .buttons {
+  border-radius: 4px;
+  padding: 6px 22px;
+  display: inline-block;
+  min-width: 73px;
+  text-align: center;
   font-family: inherit;
   background-color: var(--primary-background-color);
   cursor: pointer;
@@ -191,7 +267,11 @@ li {
 }
 
 /* картинки */
+.project-img {
+  margin-bottom: 20px;
+}
 .project {
+  margin-bottom: 4px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 700;
