@@ -25,6 +25,11 @@ h4 {
 p {
   margin: 0px;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* зкритий текс */
 .shadow {
@@ -83,9 +88,6 @@ p {
 .navigation.current {
   color: var(--primary-touch-color);
 }
-.mail {
-  margin-left: auto;
-}
 .navigation {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -120,6 +122,7 @@ p {
   color: var(--primary-text-p-color);
 }
 .mail {
+  margin-left: auto;
   display: flex;
 }
 .mail .mail-namb + .mail-namb {
@@ -231,7 +234,7 @@ p {
   width: calc((100% - 90px) / 4);
   margin-left: 30px;
   background: #ffffff;
-
+  overflow: hidden;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
