@@ -357,7 +357,7 @@ img {
   min-width: 73px;
   text-align: center;
   font-family: inherit;
-  border: 0;
+  border: none;
   background-color: #f5f4fa;
   cursor: pointer;
   font-style: normal;
